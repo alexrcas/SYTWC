@@ -7,5 +7,5 @@ Estos ficheros se pueden visitar mediante el índice que se ofrece a continuaci�
 
 ## Índice de prácticas.
 ### [Práctica 1](https://github.com/alexrcas/SYTWC/blob/master/practica1/practica1.md)
-### Práctica 2 (No disponible)
+### [Práctica 2] (https://github.com/alexrcas/SYTWC/blob/master/practica2/practica2.md)
 ### Práctica 3 (No disponible)
