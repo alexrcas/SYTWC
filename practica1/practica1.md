@@ -30,12 +30,14 @@ Un sencillo asistente en consola nos ofrecerá algunas opciones de configuració
 <a href="http://i.imgur.com/TpV1ddT.png">
   <img src="http://imgur.com/TpV1ddTl.png" />
 </a>
+
 Al completarlo, Yeoman creará toda la estructura del proyecto y el contenido básico de los ficheros de configuración por nosotros.
 
 Hay que recordar que estamos en la máquina del IaaS, pero en mi caso, utilizo para programar VSCode y su extensión SSH FS, que permite trabajar en directorios remotos a través de SSH de forma transparente como si se estuviese en local. Véase a la izquierda todo el directorio y los ficheros creado por Yeoman.
 <a href="http://i.imgur.com/7kBdTrF.png">
   <img src="http://imgur.com/7kBdTrFl.png" />
 </a>
+
 Como el servidor se encuentra en la máquina del Iaas, la cual por motivos de seguridad está tras un firewall que únicamente tiene abierto el puerto 80, entre otros pocos, en mi caso ha sido necesario modificar la línea del fichero *gulpfile.js* para que el puerto por defecto sea el 80 en lugar del 9000.
 `const  port  =  argv.port  ||  80;`
 
@@ -46,6 +48,7 @@ Una vez hecho esto, ahora sí podemos lanzar nuestro servidor.
 </a>
 
 Introduciendo en el navegador de cualquier ordenador remoto, la IP pública de nuestra máquina del IaaS, podemos ver el resultado.
+
 <a href="http://i.imgur.com/huTdnAg.png">
   <img src="http://imgur.com/huTdnAgl.png" />
 </a>
