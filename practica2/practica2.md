@@ -10,21 +10,26 @@
 ## 1. Preparando el entorno<a name="id1"></a>
 En esta ocasión, la máquina ya posee muchas de las herramientas necesarias instaladas al haber realizado la práctica anterior, así que solo necesitamos algunas de ellas:
 Instalamos *Ruby* y algunos accesorios necesarios para su buen funcionamiento.
+
 ```
 sudo apt install -y ruby
 sudo apt install ruby-full rubygems autogen autoconf libtool make
 ```
 
 Instalamos *Gulp*.
+
 `sudo npm install -g gulp`
 
 Instalamos el generador de *Yeoman* que utilizaremos en esta ocasión: *learnfe*. Se trata de un generador pensado para el aprendizaje que genera un proyecto extremadamente sencillo.
+
 `sudo npm install -g generator-learnfe`
 
 Instalamos *Sass* como una gema de Ruby.
+
 `sudo gem install sass`
 
 No iniciaremos un repositorio porque ya fue creado en la práctica anterior y estamos dentro de él, pero sí que iniciaremos el control de dependencias.
+
 `npm start`
 
 ¡Ya estamos listos para comenzar a trabajar en la creación de nuestra landing page!
