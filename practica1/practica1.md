@@ -12,12 +12,15 @@ Conectamos a la máquina del IaaS por SSH  para trabajar con más comodidad.
 </a>
 
 Instalamos npm, el gestor de paquetes del entorno NodeJS.
+
 `sudo apt install -y npm`
 
 Ahora, podemos instalar Yeoman mediante npm. Yeoman es un generador de proyectos que evita que perdamos tiempo en crear directorios y ficheros de configuración cada vez que comencemos un nuevo proyecto.
+
 `sudo npm install -g yo`
 
 Ahora necesitamos un generador. Los generadores son utilizados para crear proyectos con Yeoman. Por ejemplo, un generador de React nos generará toda la estructura y configuración necesaria para arrancar un proyecto con dicha tecnología. En nuestro caso, instalaremos *generator-webapp*.
+
 `sudo npm install -g generator-webapp`
 
 ## 2. Creando y desplegando el proyecto<a name="id2"></a>
@@ -39,10 +42,13 @@ Hay que recordar que estamos en la máquina del IaaS, pero en mi caso, utilizo p
 </a>
 
 Como el servidor se encuentra en la máquina del Iaas, la cual por motivos de seguridad está tras un firewall que únicamente tiene abierto el puerto 80, entre otros pocos, en mi caso ha sido necesario modificar la línea del fichero *gulpfile.js* para que el puerto por defecto sea el 80 en lugar del 9000.
+
 `const  port  =  argv.port  ||  80;`
 
 Una vez hecho esto, ahora sí podemos lanzar nuestro servidor.
+
 `npm start`
+
 <a href="http://i.imgur.com/4LSiiDa.png">
   <img src="http://imgur.com/4LSiiDal.png" />
 </a>
