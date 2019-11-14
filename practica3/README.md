@@ -49,3 +49,5 @@ En cuanto a los dos siguientes scripts, está refiriéndose a la carpeta del sit
 <a href="http://i.imgur.com/oxiyTCe.png">
   <img src="http://imgur.com/oxiyTCel.png" />
 </a>
+
+Se está creando una imagen que sirve de enlace a otra página del sitio.
