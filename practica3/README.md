@@ -23,6 +23,7 @@ bla bla bla
 <a href="http://i.imgur.com/HHd1tU4.png">
   <img src="http://imgur.com/HHd1tU4l.png" />
 </a>
+
 En este caso se muestra un párrafo y se obtiene la fecha. Esta fecha pasa por un filtro que se encarga de quedarse solamente con el año. A continuación se muestra el autor del sitio, que si no está definido aparecerá en blanco. Por tanto la salida sería algo como lo siguiente:
 © Copyright 2019
 
@@ -30,6 +31,7 @@ En este caso se muestra un párrafo y se obtiene la fecha. Esta fecha pasa por u
 <a href="http://i.imgur.com/aQNOmzv.png">
   <img src="http://imgur.com/aQNOmzvl.png" />
 </a>
+
 En primer lugar se está importando Ajax desde un CDN.
 Los dos siguientes scripts que se importan, se encuentran almacenados localmente.
 En cuanto a los dos siguientes scripts, está refiriéndose a la carpeta del sitio, ya que está usando la url relativa, la cual está especificada en el fichero config.yaml como baseurl. Por tanto, el valor del filtro es /example/ y los scripts se hallarían en:
