@@ -14,10 +14,16 @@ bla bla bla
   <img src="http://imgur.com/n5mwiSzl.png" />
 </a>
 
+Itera sobre los episodios, que son fragmentos de código y los ordena por un atributo peso.
+Cada iteración genera un div con el código html en su interior.
+
 ### 2.2.
 <a href="http://i.imgur.com/xnRiTYJ.png">
   <img src="http://imgur.com/xnRiTYJl.png" />
 </a>
+
+Muestra el título del sitio junto con la cadena - Ejemplo Jekyll en la barra del navegador.
+Carga el nav.html y a continuación añade el contenido del layout que tiene el mismo nombre que la página donde está escrito dicho content.
 
 ### 2.3.
 <a href="http://i.imgur.com/HHd1tU4.png">
@@ -45,9 +51,11 @@ En cuanto a los dos siguientes scripts, está refiriéndose a la carpeta del sit
   <img src="http://imgur.com/x1crgJAl.png" />
 </a>
 
+Itera sobre todas las páginas de la carpeta, de forma que crea una lista, donde cada elemento es un enlace a cada página y dicho enlace lleva por texto el título de cada página
+
 ### 2.6.
 <a href="http://i.imgur.com/oxiyTCe.png">
   <img src="http://imgur.com/oxiyTCel.png" />
 </a>
 
-Se está creando una imagen que sirve de enlace a otra página del sitio.
+Se está creando una imagen que enlaza a la url que se encuentra en el atributo href= (en este caso no existe, quizá debido a un error)
