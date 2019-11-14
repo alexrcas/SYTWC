@@ -1,0 +1,75 @@
+@import "variables"
+@import "mixins"
+
+.container
+  width: $container-width
+  @include center(column)
+    
+
+@for $i from 1 through 6
+  .#{sub-container}-#{$i}
+    @extend .container
+    width: 100%
+    background-color: nth($colors, $i)
+  
+.sub-container-1
+  @extend .container
+  width: 100%
+
+.logo
+  background-image: url("http://pngimg.com/uploads/broccoli/broccoli_PNG72974.png")
+  background-size: contain
+  width: $logo-size
+  height: $logo-size
+ 
+h1
+  @include header(60px, white)
+
+h3
+  @include header("20px", white)
+
+.sub-container-6
+  h3
+    @include header("20px", green)
+
+.catalog
+  @include center(row)
+  margin-bottom: 15px
+  color: white
+  width: 100%
+
+.catalog-item
+  @include catalog-item
+  @include center(row)
+
+.form-container
+  @include center(row)
+  margin-bottom: 25px
+
+.form-style-4
+  @include form-style
+
+.form-style-4 
+  input
+    background: #576E86;
+    border: none;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 40%
+
+.form-style-4
+  input[type=text]:hover
+    @include form-element
+
+.form-style-4
+  input[type=submit]:hover
+    @include form-element
+
+.form-style-4
+  input[type=button]:hover
+    @include form-element
+
+.form-style-4
+  input[type=email]:hover
+    @include form-element

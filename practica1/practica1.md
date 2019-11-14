@@ -4,7 +4,6 @@
 ## Tabla de contenidos
 1. [Preparando de entorno](#id1)
 2. [Creando y desplegando el proyecto](#id2)
-3. [Añadiendo ficheros y código](#id3)
 ## 1. Preparando el entorno<a name="id1"></a>
 Conectamos a la máquina del IaaS por SSH  para trabajar con más comodidad.
 <a href="http://i.imgur.com/i8olS9U.png">
@@ -60,20 +59,3 @@ Introduciendo en el navegador de cualquier ordenador remoto, la IP pública de n
 </a>
 
 Obśervese que cada vez que realizamos un cambio en el código fuente y guardamos, el navegador se actualiza automáticamente sin que sea necesario refrescar de forma manual.
-
-## 3. Añadiendo ficheros y código<a name="id3"></a>
-Vamos ahora a completar los últimos requisitos de la práctica.
-### Añadir un fichero *html*, un fichero *javascript* y dos ficheros *css*
-Bla bla bla bla...
-### Crear un fichero de automatización
-Se debe crear un fichero de automatización que realice las siguientes acciones:
-* Concatenar los dos ficheros *css*.
-* Minificar *css*.
-* Hacer sourcemaps del *css*.
-* Lanzar *BrowserSync*.
-* Minificar imágenes y *javascript*.
-
-Bla bla bla bla...
-
-### Investigar la creación de un proyecto Yeoman para Jekyll
-Utilizar generator-learnfe
