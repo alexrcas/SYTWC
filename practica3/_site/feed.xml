@@ -6,9 +6,27 @@
 </description>
     <link>http://jekyll.github.io/example/</link>
     <atom:link href="http://jekyll.github.io/example/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 14 Nov 2019 14:38:31 +0000</pubDate>
-    <lastBuildDate>Thu, 14 Nov 2019 14:38:31 +0000</lastBuildDate>
+    <pubDate>Thu, 14 Nov 2019 14:52:39 +0000</pubDate>
+    <lastBuildDate>Thu, 14 Nov 2019 14:52:39 +0000</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Bienvenido</title>
+        <description>&lt;h1 id=&quot;bienvenido&quot;&gt;Bienvenido!&lt;/h1&gt;
+
+&lt;h3 id=&quot;qué-es-esto&quot;&gt;¿Qué es esto?&lt;/h3&gt;
+&lt;p&gt;Es un post de prueba con Jekyll!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 14 Nov 2019 14:52:23 +0000</pubDate>
+        <link>http://jekyll.github.io/example/2019/Bienvenido.html</link>
+        <guid isPermaLink="true">http://jekyll.github.io/example/2019/Bienvenido.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
