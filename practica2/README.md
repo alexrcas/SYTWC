@@ -80,7 +80,3 @@ A continuación se comentan los aspectos más importantes del código Sass.
 
 - Utilizar algún componente de *materialize* pero sin incluir todos los estilos. Reutilizar solo algún componente
 
-
-
-## Automatizando las tareas con Gulp
-
