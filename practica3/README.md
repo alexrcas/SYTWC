@@ -1,7 +1,5 @@
 # Práctica 3 - Ejercicios Jekyll
 
-## Índice de contenidos
-
 ## 1. Desplegando Jekyll
 ### 1.1. Ejecutando Jekyll
 Lo primero que debemos hacer es clonar el repositorio con el proyecto de ejemplo Jekyll.
