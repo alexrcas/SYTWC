@@ -3,7 +3,7 @@
 **Alexis Rodríguez Casañas**
 
 Cada carpeta contiene la práctica correspondiente, con los ficheros de código y el informe en forma de fichero *markdown*.
-Estos ficheros se pueden visitar mediante el índice que se ofrece a continuación, sin necesidad de navegar por el repositorio.
+No obstante, a continuación se listan los enlaces directos a dichos informes para ser vistos sin necesidad de navegar por este repositorio.
 
 ## Índice de prácticas.
 ### [Práctica 1](https://github.com/alexrcas/SYTWC/blob/master/practica1/README.md)
