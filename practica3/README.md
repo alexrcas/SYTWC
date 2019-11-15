@@ -1,12 +1,44 @@
-# Práctica 3 - Jekyll
+# Práctica 3 - Ejercicios Jekyll
 
 ## Índice de contenidos
 
 ## 1. Desplegando Jekyll
-### Paso 1
-bla bla bla
-### Paso 2
-bla bla bla
+### 1.1. Ejecutando Jekyll
+Lo primero que debemos hacer es clonar el repositorio con el proyecto de ejemplo Jekyll.
+`git clone https://github.com/jekyll/example`
+Deberíamos tener instalado Jekyll. Si no es el caso, procedemos a instalarlo.
+`sudo apt install -y jekyll`
+Ahora, nos situamos en el repositorio y lanzamos el proyecto con el comando `jekyll serve`
+**Nota:** Al ejecutar `jekyll serve` se lanzará el servidor web con la dirección *localhost* en el puerto 4000. El firewall del IaaS no permite el acceso a este puerto, por lo que si queremos desplegar el servidor desde ahí, debemos añadir en el fichero de configuración del proyecto *_config.yml* el parámetro `port: 80`.
+Hay que tener en cuenta que después de hacer esto necesitaremos ejecutar `sudo jekyll serve`, ya que los puertos por debajo del 1024 necesitan permisos de superusuario para ser utilizados.
+<a href="http://i.imgur.com/1DcBbhm.png">
+  <img src="http://imgur.com/1DcBbhml.png" />
+</a>
+
+### 1.2. Añadiendo dos páginas y un post.
+#### Añadiendo las páginas.
+Añadir una nueva página en Jekyll es muy sencillo. Para tener nuestro contenido más organizado vamos a crear un directorio llamado *content* que es donde se alojarán nuestras páginas.
+A continuación lo único que debemos hacer es crear una nueva página en formato markdown y añadirle la cabecera como la de la imagen, donde se especifica el layout, el título que aparecerá en la página y el permalink, que debe coincidir con el nombre del fichero ya que es el link al mismo. A continuación, podemos introducir el contenido que queramos.
+<a href="http://i.imgur.com/L3aPV87.png">
+  <img src="http://imgur.com/L3aPV87l.png" />
+</a>
+
+Siguiendo esta metodología podemos añadir las páginas que queramos.
+<a href="http://i.imgur.com/VF6lQZc.png">
+  <img src="http://imgur.com/VF6lQZcl.png" />
+</a>
+
+#### Añadiendo un post.
+Añadir un post no es más complicado que el paso anterior. Tan solo debemos crear un fichero en el directorio *_posts* y nombrarlo con la fecha del post seguido de su título.
+A continuación debemos añadirle una cabecera como la de la imagen. Véase que ahora, obviamente su layout será el de post. También tenemos el título con el que se mostrará el post en la página, la fecha y la categoría.
+<a href="http://i.imgur.com/KnxSUgt.png">
+  <img src="http://imgur.com/KnxSUgtl.png" />
+</a>
+
+<a href="http://i.imgur.com/Nas7m8K.png">
+  <img src="http://imgur.com/Nas7m8Kl.png" />
+</a>
+
 
 ## 2. Ejercicios
 ### 2.1.
