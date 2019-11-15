@@ -7,6 +7,6 @@ No obstante, a continuación se listan los enlaces directos a dichos informes pa
 
 ## Índice de prácticas.
 ### [Práctica 1](https://github.com/alexrcas/SYTWC/blob/master/practica1/README.md)
-### [Práctica 2](https://github.com/alexrcas/SYTWC/blob/master/practica2/practica2.md)
+### [Práctica 2](https://github.com/alexrcas/SYTWC/blob/master/practica2/README.md)
 ### [Práctica 3 - Ejericicos Jekyll](https://github.com/alexrcas/SYTWC/blob/master/practica3/README.md)
 ### [Práctica 3 - Jekyll] (no disponible)
