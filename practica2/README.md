@@ -18,6 +18,7 @@ A continuación se comentan los aspectos más importantes del código Sass.
   
 - Usar mixins para los encabezados, h1
 - Usar el mismo estilo en dos encabezados pero con un cambio en el color del texto
+
   El código para resolver estos dos puntos se entiende mucho mejor si se explican al mismo tiempo.
   Lo primero es crear un mixin para aplicar al encabezado, pero más adelante nos piden que el color de otro encabezado
   sea diferente, respetando todo el estilo anterior. En CSS tradicional, podría aplicarse el color y sobreescribirlo
@@ -36,6 +37,7 @@ A continuación se comentan los aspectos más importantes del código Sass.
   ```
 
 - Usar un mixin para centrar el contenido
+
   El mixin para centrar el contenido utiliza flex y recibe como parámetro si se desea organizar el contenido en filas
   o columnas, ya que es una opción que varía con mucha frecuencia según el contenedor y por eso es interesante
   parametrizarla. Este mixin es muy útil y aquí se deja ver la eficiencia de Sass. Si en algún momento creamos
@@ -49,6 +51,7 @@ A continuación se comentan los aspectos más importantes del código Sass.
   ```
 
 - Usar un mixin para los estilos del form
+
   Para los estilos del form se han utilizado dos mixins, uno para el fomulario y otro que define una animación que
   resaltará los elementos cuando se haga hover sobre ellos. Estos mixin se aplican utilizando la anidación en
   cumplimiento con el siguiente punto
@@ -66,6 +69,7 @@ A continuación se comentan los aspectos más importantes del código Sass.
   ```
 
 - Usar la anidación para aplicar estilos a botones y elementos del form cuando se aplique *hover* o *focus* sobre ellos
+
   Como se explicó en el punto anterior, se utiliza la anidación para aplicar los estilos. Este formato resulta
   mucho más cómodo, limpio y legible que el de CSS tradicional.
   ```
@@ -79,4 +83,10 @@ A continuación se comentan los aspectos más importantes del código Sass.
   ```
 
 - Utilizar algún componente de *materialize* pero sin incluir todos los estilos. Reutilizar solo algún componente
+
+  Para realizar este punto debemos descargar los archivos de materialize (podemos utilizar su versión Sass) y crear un directorio en nuestro proyecto donde alojaremos dichos archivos. A continuación solo debemos importar en nuestro código css el fichero del componente que deseemos añadir. Puede ser     necesario también añadir el fichero de variables. De esta forma, el cliente no se descargará todo el css de materialize si solo deseamos utilizar un componente.
+  ```
+  @import "../../materialize-src/sass/components/variables"
+  @import "../../materialize-src/sass/components/buttons"
+  ```
 
