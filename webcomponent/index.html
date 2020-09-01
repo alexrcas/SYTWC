@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Component</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="component.js"></script>
+    <script src="main.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <!-- cabecera -->
+    <nav class="navbar navbar-expand-sm bg-light bg-dark text-white">
+        <ul class="navbar-nav">
+            <li class="nav-item mr-3"><h2>Inicio</h1></li>
+          <li class="nav-item">
+            <span class="nav-link" href="#">Link 1</span>
+          </li>
+          <li class="nav-item">
+            <span class="nav-link" href="#">Link 1</span>
+          </li>
+        </ul>
+      </nav>
+
+
+
+     <!-- Contenido -->
+    <div class="container d-flex justify-content-center mt-5">
+
+        <app-movie title="Gibson Les Paul"
+        description="Descripción de prueba"
+        link="https://www.gibson.com/Guitars/Les-Paul"
+        image="https://www.ardemadrid.com/3916-thickbox_default/gibson-les-paul-custom-shop-cs9-standard-vos-stb.jpg"
+        onclick="selectItem('Gibson Les Paul')">
+        </app-movie>
+
+        <app-movie title="Fender Stratocaster"
+        description="Descripción de prueba"
+        image="https://www.musik-produktiv.es/pic-010105737xxl/fender-player-stratocaster-mn-blk.jpg"
+        link="https://shop.fender.com/es-ES/electric-guitars/stratocaster/"
+        onclick="selectItem('Fender Stratocaster')">
+        </app-movie>
+
+        <app-movie title="Fender Telecaster"
+        description="Fender Telecaster"
+        image="https://www.pronorte.es/_files/product/12675/gallery1/fender-player-telecaster-mn-btb.jpg"
+        link="https://shop.fender.com/es-ES/electric-guitars/telecaster/"
+        onclick="selectItem('Fender Telecaster')">
+        </app-movie>
+
+    </div>
+
+    <div class="container d-flex flex-row mt-3">
+        <h4 class="mr-2">Has seleccionado:  </h4><h4 id="selected"></h4>
+    </div>
+
+    <!-- Footer -->
+    <footer class="fixed-bottom border bg-dark">
+        <div class="container d-flex justify-content-center text-white flex-column p-3">
+            <h2>Sistemas y tecnologías web</h2>
+            <span>Alexis Rodríguez Casañas</span>
+        </div>
+        
+    </footer>
+
+</body>
+</html>
