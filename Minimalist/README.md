@@ -8,6 +8,8 @@ Realizar un análisis de la usabilidad de los sitios y participar en el foro que
 3. http://paginasweb.staffcreativa.pe/?utm_source=blog&utm_medium=banner&utm_content=end-post&utm_campaign=Blog%20Banners
 
 ## Sitio 1
+![](https://i.ibb.co/XCF869X/image.png)
+
 El primer error que salta a la vista en este sitio es la carencia de una landing page adecuada. Es imposible saber el propósito del sitio o qué hacer allí.
 Elementos minimalistas:
 * Paleta de colores reducida y además siendo estos colores primarios y básicos en alto contraste (negro y blanco)
@@ -26,6 +28,7 @@ considerarse una excepción pasable.
 
 ## Sitio 3
 ![](https://i.ibb.co/bb5fHcw/image.png)
+
 Este sitio presenta un diseño minimalista bastante bien ejecutado, lo cual es esperable debido a que se trata de una agencia de diseño. Algunos elementos son:
 * Diseño plano, carencia de elementos con profundidad o efecto relieve.
 * Paleta de colores reducida, simple, pero en todos suaves y bien combinados.
