@@ -25,6 +25,7 @@ considerarse una excepción pasable.
 ![](https://i.ibb.co/NjSSq6p/image.png)
 
 ## Sitio 3
+![](https://i.ibb.co/bb5fHcw/image.png)
 Este sitio presenta un diseño minimalista bastante bien ejecutado, lo cual es esperable debido a que se trata de una agencia de diseño. Algunos elementos son:
 * Diseño plano, carencia de elementos con profundidad o efecto relieve.
 * Paleta de colores reducida, simple, pero en todos suaves y bien combinados.
