@@ -1,0 +1,29 @@
+body {
+    background-color: #080F0F;
+}
+
+.content {
+    margin-top: 5%;
+    color: white;
+}
+
+.brand-logo {
+    margin-left: 15px;
+}
+
+.card {
+    cursor: pointer;
+}
+
+#m-img {
+    width: 200px;
+    height: auto;
+}
+
+nav {
+    background-color: #3DB85C !important;
+}
+
+.card-content {
+    color: black
+}

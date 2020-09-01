@@ -1,0 +1,47 @@
+---
+title: Práctica 2
+layout: default
+---
+
+
+<div class="content">
+        <div class="row">
+            
+            <div class="container">
+            {% for item in site.data.movies %}
+            <div class="col m2 card-container" data-title="{{ item.name }}" data-description="{{ item.description }}" data-link="{{ item.link }}">
+                <div class="card hoverable">
+                    <div class="card-image">
+                    <img src="{{ item.link }}">
+                    </div>
+                    <div class="card-content">
+                    <p>{{ item.name }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+    </div>
+
+</div>
+
+  <!-- Modal Structure -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <h4 id="m-title"></h4>
+      <p id="m-desc"></p>
+      <div class="row center-align">
+        <img class="center-align" id="m-img" src="" alt="">
+      </div>
+    </div>
+    <div class="modal-footer">
+    </div>
+  </div>
+          
+
+
+
+
+
+
