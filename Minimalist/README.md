@@ -19,6 +19,7 @@ Sin embargo, este sitio también posee algunos erroes típicos de los diseños m
 * No hay menú de navegación. El usuario después de dos o tres clicks no sabe en qué lugar del sitio está ni cómo ha llegado.
 * No sigue un patrón de diseño estándar y no sigue el principio de la mínima sorpresa. Descubrí sin querer que pulsando en un pequeño cuadrado se despliega un menú en la parte
 superior derecha.
+
 Dado que el sitio es una web personal de un artista gráfico, parece que su intención era más la de expresarse que la de realizar una web profesional y usable, por lo que podría
 considerarse una excepción pasable.
 
@@ -38,3 +39,5 @@ Este sitio presenta un diseño minimalista bastante bien ejecutado, lo cual es e
 * Prácticamente cualquier acción en la web ofrece un feedback visual inmediato a través de algún efecto o animación, sin ser cargante, únicamente
 para que el usuario sea consciente de sus acciones.
 * Landing page correcta. En unos pocos segundos el usuario sabe de qué trata el sitio.
+
+En general el sitio es agradable a la vista, usable y responsivo, por lo que podría considerarse un buen sitio.
