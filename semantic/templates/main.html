@@ -1,0 +1,44 @@
+<div id="div-results" class="container mt-5">
+
+    {% if artist == true %}
+        <h3 class="mb-5"> Todos los géneros músicales </h3>
+        <div class="d-flex flex-row flex-wrap justify-content-between">
+            {% for result in results.results.bindings %}
+                <div class="w-25">
+                    <a href="/artists/{{ result.g_nero_musical.value.rpartition('/')[-1]}}">
+                        <div class="bg-dark text-white music-genre btn mb-2 mr-3" data-value="{{ result.g_nero_musical.value }}"
+                            data-genre="{{ result.g_nero_musicalLabel.value }}">{{ result.g_nero_musicalLabel.value }}</div>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+
+
+    {% if album == true %}
+        <h3 class="mb-5"> Artistas relacionados </h3>
+        {% for result in results.results.bindings %}
+            <div class="d-flex flex-row flex-wrap justify-content-between">
+                <div class="w-25">
+                    <a href="/albums/{{ result.grupo_musical.value.rpartition('/')[-1]}}">
+                        <div class="bg-dark text-white music-genre btn mb-2 mr-3" data-value="{{ result.grupo_musical.value }}"
+                            data-genre="{{ result.grupo_musicalLabel.value }}">{{ result.grupo_musicalLabel.value }}</div>
+                    </a>
+                </div>
+            </div>
+        {% endfor %}
+    {% endif %}
+
+
+    {% if songs == true %}
+        <h3 class="mb-5"> Albums del artista </h3>
+        {% for result in results.results.bindings %}
+            <div>
+                <div class="bg-dark text-white music-genre btn mb-2" data-title="{{ result.name.value }}">
+                    {{ result.name.value }}</div>
+            </div>
+        {% endfor %}
+    {% endif %}
+
+
+</div>

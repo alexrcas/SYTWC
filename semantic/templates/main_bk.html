@@ -1,0 +1,37 @@
+<div id="div-results" class="container mt-5 border">
+
+        {% if artist == true %}
+        {% for result in results.results.bindings %}
+        <div>
+            <a href="/artists/{{ result.g_nero_musical.value.rpartition('/')[-1]}}">
+                <div class="bg-primary text-white music-genre btn" data-value="{{ result.g_nero_musical.value }}"
+                    data-genre="{{ result.g_nero_musicalLabel.value }}">{{ result.g_nero_musicalLabel.value }}</div>
+            </a>
+        </div>
+        {% endfor %}
+        {% endif %}
+
+
+        {% if album == true %}
+        {% for result in results.results.bindings %}
+        <div>
+            <a href="/albums/{{ result.grupo_musical.value.rpartition('/')[-1]}}">
+                <div class="bg-dark text-white music-genre btn mb-2" data-value="{{ result.grupo_musical.value }}"
+                    data-genre="{{ result.grupo_musicalLabel.value }}">{{ result.grupo_musicalLabel.value }}</div>
+            </a>
+        </div>
+        {% endfor %}
+        {% endif %}
+
+
+        {% if songs == true %}
+        {% for result in results.results.bindings %}
+        <div>
+            <div class="bg-dark text-white music-genre btn mb-2" data-title="{{ result.name.value }}">
+                {{ result.name.value }}</div>
+        </div>
+        {% endfor %}
+        {% endif %}
+
+
+</div>
