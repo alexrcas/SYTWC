@@ -4,6 +4,11 @@
 El objetivo de esta práctica es aprender a utilizar la web semántica, consultar a través de su servicio y presentar los resultados de forma
 correcta en un front-end.
 
+### Descripción del proyecto
+WikiMusic es un explorador de música que permite encontrar nuevos géneros desconocidos y descubrir artistas y albums de dichos géneros.
+
+![](https://i.ibb.co/M7sJcmC/image.png)
+
 ### Instrucciones de instalación
 El proyecto está realizado en *Python 3.6.9*. Las dependencias se encuentran en el fichero *requirements.txt*
 La forma más sencilla de ejecutar sin alterar el sistema es utilizando virtualenv:
