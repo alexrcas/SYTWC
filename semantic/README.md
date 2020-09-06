@@ -34,5 +34,5 @@ son infinitas.
 
 Respecto al desarrollo, para este proyecto he intentado aplicar todo lo aprendido en el máster en cuanto a tecnologías y buenas prácticas.
 Tanto a nivel de back-end como de front-end, he utilizado librerías y frameworks que me permitiesen un desarrollo muy ágil, y
-en el front me he propuesto como reto no escribir una sola línea de *Javascript* ni *CSS* y mantener el *HTML* muy pequeño, lo
+en el front me he propuesto como reto no escribir una sola línea de Javascript ni CSS y mantener el HTML muy pequeño, lo
 cual ha sido posible gracias al uso de las plantillas, algo que desconocía antes de comenzar la asignatura.
