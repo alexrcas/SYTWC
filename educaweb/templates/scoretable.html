@@ -1,0 +1,25 @@
+
+
+<div class="d-flex">
+<h1>Tu puntuación ha sido: </h1><h1 id="score">{{ score }}</h1>
+</div>
+
+{% if (score|int <= 40) %}
+    <h2>¡Seguro que puedes hacerlo mejor!</h2>
+{% else %}
+    <h2>¡Eres un crack!</h2>
+{% endif %}
+
+<button id="save-score-btn" class="btn btn-success">Guardar mi puntuación</button><span id="w-label" class="ml-5">Se ha guardado tu puntuación!</span>
+
+<div class="mt-5">
+<h5>Puntuaciones de otras partidas</h5>
+<table class="table">
+    {% for entry in table %}
+    <tr>
+        <td>{{ entry.user }}</td>
+        <td> {{ entry.score }} </td>
+    </tr>
+    {% endfor %}
+</table>
+</div>

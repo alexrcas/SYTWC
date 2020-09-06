@@ -1,0 +1,17 @@
+<div class="d-flex">
+    <h3>Puntuación: </h3>
+    <h3 id="score">0</h3>
+    <div class="ml-4 d-flex">
+        <h3>Nivel: </h3>
+        <h3 id="level"></h3>
+    </div>
+    <div class="ml-4 d-flex">
+        <h3>Tiempo: </h3>
+        <h3 id="time">{{ time }}</h3>
+    </div>
+</div>
+<span id="shapes-num" class="d-none">{{ shapes }}</span>
+<canvas id="webgl"></canvas>
+<h3 id="mission">Probando</h3>
+
+{% include 'modal.html' %}

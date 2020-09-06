@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web semantica</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    
+    {% include 'header.html' %}
+    
+    <div class=" mt-5 container">
+        <h3>Elegir</h3>
+        <div>
+            <a href="/game/5/20"><button class="btn btn-primary">Fácil</button></a>
+            <a href="/game/8/15"><button class="btn btn-primary">Intermedio</button></a>
+            <a href="/game/12/7"><button class="btn btn-primary">Difícil</button></a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+    <script src="/static/js/build/three.interaction.js"></script>
+    <script src="/static/js/interaction/Interaction.js"></script>
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
