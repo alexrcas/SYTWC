@@ -26,6 +26,7 @@ para una función y la palabra que la representa, construir los enunciados de fo
 ['se mueve', 'encoge', 'está quieto']
 [funcionMover, funcionEncoger, funcionQuieto]
 ```
+En el ejemplo anterior, si utilizo el índice 2 para construir el enunciado (está quieto) sé que necesariamente deberé aplicar al objeto la función con índice 2.
 
 ### Login
 Para la persistencia de datos se utiliza una base de datos en la nube (Atlas), por lo que no hay que preocuparse de este módulo
