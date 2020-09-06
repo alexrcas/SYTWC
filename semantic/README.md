@@ -14,7 +14,7 @@ cd semantic
 pip install -r requeriments.txt
 python app.py
 ```
-Con lo anterior, ya tenemos el servidor corriendo y podemos acceder a la URL localhost:5000
+Con lo anterior, ya tenemos el servidor corriendo y podemos acceder a la URL *localhost:5000*
 
 ### Tecnologías utilizadas
 
